@@ -1,21 +1,3 @@
-# Non-secret configuration
-export EC2_IP=159.65.33.16
-export MEILI_SERVER_URL="https://ersantana-meilisearch.hf.space/"
-export HERMES_API_ENDPOINT="http://107.170.61.37/v1/chat/completions"
-export HERMES_MODEL_NAME="hermes"
-export DB_2_PORT="5432"
-export DB_2_NAME="zatlas"
-export DB_PORT="5432"
-export DB_NAME="zatlas"
-export USER_POOL_ID=""
-export PMS_DB_URL="jdbc:postgresql://localhost:5432/zatlas"
-export PMS_DB_USERNAME="postgres"
-export PMS_DB_PASSWORD="postgres"
-export PMS_DB_DRIVER_CLASS_NAME="org.postgresql.Driver"
-export SPRING_PROFILES_ACTIVE=local
-export DATADOG_USER_EMAIL=erick@zatlas.com
-PGPASSWORD=postgres
-
 # Load secrets from 1Password ("Bash Secrets" item in "Dev" vault)
 # Caches locally so only the first terminal needs fingerprint auth.
 #   load_secrets           — loads from cache, or fetches if no cache
